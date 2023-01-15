@@ -1,0 +1,718 @@
+    html,body{
+    background: #F5F5F5;
+    }
+
+    img{
+        max-width: 100%;
+        height:auto;
+    }
+
+    .container{
+        position: relative;
+        width: 414px;
+        height: 896px;
+        
+        background: linear-gradient(180deg, rgba(141, 183, 221, 0.9) 0%, rgba(141, 183, 221, 0.78) 100%);
+        border-radius: 40px;;
+   
+    }
+    
+    .elipse{
+        position: absolute;
+        width: 345px;
+        height: 345px;
+        left: 34px;
+        top: 89px;
+        border-radius: 50%;
+        
+        background: #FFFFFF;
+    
+    }
+
+    .logo{
+        position:absolute;
+        width: 315px;
+        height: 315px;
+        left: 1px;
+        top: 1px;
+        border-radius: 50%;
+
+        background: url(logo.png);
+    }
+
+    .restname{
+        position: absolute;
+        width: 325px;
+        height: 91px;
+        left: 48px;
+        top: 528px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 75px;
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    .greybutton{
+        position: absolute;
+        width: 295px;
+        height: 73px;
+        left: 59px;
+        top: 713px;
+
+        background: #D9D9D9;
+        border-radius: 20px;
+
+
+    }
+
+    .starttext{
+        position: absolute;
+        width: 235px;
+        height: 43px;
+        left: 30px;
+        top: 5px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 45px;
+        text-align: center;
+        text-decoration:none;
+
+        color: #2F9CFF;
+
+    }
+
+    .menuheader{
+        position: absolute;
+        width: 118px;
+        height: 60px;
+        left: 29px;
+        top: 34px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+        /* identical to box height */
+
+
+        color: #000000;
+
+    }
+
+    .searcharea{
+        position: absolute;
+        width: 344px;
+        height: 63px;
+        left: 35px;
+        top: 112px;
+
+        background: #D9D9D9;
+        border-radius: 35px;
+    }
+
+    .searchtext{
+        position: absolute;
+        width: 163px;
+        height: 43px;
+        left: 100px;
+        top: -5px;
+            
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 45px;
+            
+        color: #525050;
+
+    }
+
+    #searchicon{
+        position: absolute;
+        left: 12.5%;
+        right: 14.63%;
+        top: 12.5%;
+        bottom: 14.63%;
+        width: 163px;
+        height: 43px;
+    }
+
+    .categoryboxselected{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 34px;
+        top: 197px;
+            
+        background: rgba(141, 183, 221, 0.9);
+        border-radius: 10px;
+    }
+
+    .categorybox{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 34px;
+        top: 197px;
+            
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    
+
+    .promotions{
+        position: absolute;
+        width: 347px;
+        height: 199px;
+        left: 29px;
+        top: 383px;
+
+        background: linear-gradient(108.06deg, rgba(16, 83, 255, 0.234) 2.65%, rgba(202, 214, 225, 0.9) 100%);
+        border-radius: 10px;
+
+    }
+
+    .promotionheader{
+        position: absolute;
+        width: 229px;
+        height: 60px;
+        left: 31px;
+        top: 328px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+
+        color: #000000;
+
+    }
+
+    .promotiontitle{
+        position: absolute;
+        width: 148px;
+        height: 37px;
+        left: 20px;
+        top: 20px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .promotionproductname{
+        position: absolute;
+        width: 218px;
+        height: 33px;
+        left: 20px;
+        top: 50px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    .promotedprice{
+        position: absolute;
+        width: 226px;
+        height: 33px;
+        left: 20px;
+        top: 80px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #000000;
+
+    }
+
+    .addpromotedprodcut{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 250px;
+        top: 145px;
+
+        filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+
+
+    }
+
+    .products{
+        position: absolute;
+        width: 229px;
+        height: 38px;
+        left: 20px;
+        top: 590px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+
+        color: #000000;
+    }
+
+    .productcard{
+        position: absolute;
+        width: 129px;
+        height: 173px;
+        left: 10px;
+        top: 50px;
+
+        background: #D9D9D9;
+        border-radius: 20px;
+    }
+
+    .productimg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 15px;
+        top: 15px;
+        border-radius: 10px;
+    }
+
+    .productname{
+        position: absolute;
+        width: 96px;
+        height: 22px;
+        left: 15px;
+        top: 125px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+
+        color: #000000;
+    }
+
+    .productprice{
+        position: absolute;
+        width: 40px;
+        height: 21px;
+        left: 15px;
+        top: 145px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+
+        color: #FF7A00;
+    }
+
+    #addproduct{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 90px;
+        top: 145px;
+
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+    
+    .elipse2{
+        position: absolute;
+        width: 340px;
+        height: 340px;
+        left: 34px;
+        top: 59px;
+        border-radius: 50%;
+
+        background: #FFFFFF;
+    }
+
+    .productbigimg{
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        left: 30px;
+        top: 30px;
+        border-radius: 50%;
+    }
+
+    .productpagedetails{
+        position: absolute;
+        width: 414px;
+        height: 462px;
+        left: 0px;
+        top: 434px;
+
+        background: #FFFFFF;
+        border-radius: 80px 0px 0px 0px;
+    }
+
+    .productpageprice{
+        position: absolute;
+        width: 100px;
+        height: 33px;
+        left: 300px;
+        top: 25px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #FF7A00;
+
+    }
+    
+    #productpagesubstract{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 308px;
+        top: 80px;
+    }
+
+    #productpageadd{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 376px;
+        top: 80px;
+
+    }
+
+    .orderamount{
+        position: absolute;
+        width: 13px;
+        height: 33px;
+        left: 347px;
+        top: 75px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .productpagetitle{
+        position: absolute;
+        width: 146px;
+        height: 33px;
+        left: 54px;
+        top: 100px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+
+
+    }
+
+
+
+    .productpageexp{
+        position: absolute;
+        width: 306px;
+        height: 49px;
+        left: 54px;
+        top: 150px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #000000;
+
+    }
+    .additionalitemstitle{
+        position: absolute;
+        width: 56px;
+        height: 41px;
+        left: 54px;
+        top: 250px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 38px;
+
+        color: #000000;
+
+
+    }
+    .additionalitemscard{
+        position: absolute;
+        width: 103.83px;
+        height: 80px;
+        left: 50px;
+        top: 290px;
+        border:1px solid black;
+
+    }
+    .bluebutton{
+        position: absolute;
+        width: 295px;
+        height: 73px;
+        left: 50px;
+        top: 400px;
+
+        background: rgba(141, 183, 221, 0.9);
+        border-radius: 20px;
+
+    }
+
+    .bluebottontext{
+        position: absolute;
+        width: 235px;
+        height: 43px;
+        left: 35px;
+        top: 15px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    .basketheader{
+        position: absolute;
+        width: 255px;
+        height: 28px;
+        left: 34px;
+        top: 35px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 38px;
+
+        color: #000000;
+    }
+
+    .basketproductcard{
+        position: absolute;
+        width: 90%;
+        height: 120px;
+        left: 12px;
+        top: 96px;
+        border: 1px solid grey;
+
+    }
+
+    .basketproductimg{
+        position: absolute;
+        width: 120px;
+        height: 90%;
+        left: 12px;
+        top: 96px;
+
+    }
+
+    .basketproductname{
+        position: absolute;
+        width: 151px;
+        height: 29px;
+        left: 140px;
+        top: 10px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #000000;
+    }
+
+    .basketproductprice{
+        position: absolute;
+        width: 55px;
+        height: 23px;
+        left: 140px;
+        top: 50px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+
+    #basketsubstract{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 140px;
+        top: 85px;
+    }
+
+    .basketorderamount{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 170px;
+        top: 85px;
+
+    }
+
+    #basketpageadd{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 200px;
+        top: 85px;
+
+    }
+
+    .basketremove{
+        position: absolute;
+        width: 80px;
+        height: 24px;
+        left: 230px;
+        top: 85px;
+
+
+    }
+
+    .ordernotetitle{
+        position: absolute;
+        width: 255px;
+        height: 28px;
+        left: 34px;
+        top: 398px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #000000;
+    }
+
+    .ordernoteinput{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 326px;
+        height: 82px;
+        left: 34px;
+        top: 438px;
+
+        background: #FFFFFF;
+        border: 1px solid #CDCDCD;
+        border-radius: 20px;
+
+    }
+
+    .totalamounttext{
+        position: absolute;
+        width: 255px;
+        height: 28px;
+        left: 34px;
+        top: 587px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 38px;
+        
+        color: #000000;
+        
+    }
+
+    .totalamount{
+        position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 250px;
+        top: 593px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        
+        color: #FF7A00;
+        
+    }
+
+    .orderbutton{
+        position: relative;
+        width: 295px;
+        height: 73px;
+        margin: auto;
+        top: 664px;
+        
+        background: rgba(141, 183, 221, 0.9);
+        border-radius: 20px;
+        border: 1px solid  rgba(141, 183, 221, 0.9) ;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        color: #FFFFFF;
+    }
